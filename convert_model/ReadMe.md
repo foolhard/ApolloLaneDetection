@@ -8,7 +8,7 @@
 
 2. darkSCNN_lane_detector
   替换apollo环境  (/apollo/module/perception/camera/lib/lane/detector/darkSCNN/)同名文件
-  运行流程监管见官方文档
+  运行流程见官方文档
   https://developer.apollo.auto
 
 
