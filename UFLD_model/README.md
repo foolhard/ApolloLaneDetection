@@ -3,5 +3,6 @@
 - 模型转换：torch2onnx.py   
 
 - 模型替换,直接替换/apollo/modules/perception/camera/lib/lane/detector/darkSCNN文件夹下的darkSCNN_lane_detector.h和darkSCNN_lane_detector.cc  
---./apollo.sh  
---mainboard -d ./modules/perception/production/dag/dag_streaming_perception_lane.dag  
+./apollo.sh  
+mainboard -d ./modules/perception/production/dag/dag_streaming_perception_lane.dag  
+cyber_recorder play -f /apollo/data/bag/demo_sensor_data_for_vision.record -k /apollo/perception/obstacles /apollo/prediction
